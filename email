@@ -1,7 +1,0 @@
-#!/bin/bash
-
-
-SUBJECT="HELLO"
-EMAIL="ozyalpy@gmail.com"
-EMAILMESSAGE="HELLO WORLD FROM BASH"
-mail -s "$SUBJECT" "$EMAIL" 
