@@ -15,8 +15,9 @@ class Process(Model):
 	Time = DateTimeField()
 	class Meta:
 		database = db
-
-Process.create_table()
+x=db.get_tables()
+if not x:
+	Process.create_table()
 def stringtointeger(x):
 	try: 
 		return int(x)
