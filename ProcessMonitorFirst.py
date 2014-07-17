@@ -4,7 +4,7 @@ from peewee import *
 import subprocess
 import sys
 import hashlib
-db = MySQLDatabase('ProcessMonitor',user='root',passwd='klavye123')
+db = MySQLDatabase('ProcessMonitor',user='username',passwd='password')
 db.connect()
 db.set_autocommit(True)
 class Process(Model):
