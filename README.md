@@ -4,4 +4,3 @@ after then execute the program
 
 Used python + MySQL + peeweee
 
-for questions : ozanalpay@yandex.com.tr
